@@ -1,3 +1,7 @@
 include README.md
 include LICENSE
+
 recursive-include CellNeighborEX/database *.csv
+
+global-exclude *.py[cod]
+global-exclude __pycache__
